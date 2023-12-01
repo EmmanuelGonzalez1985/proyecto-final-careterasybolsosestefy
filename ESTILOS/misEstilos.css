@@ -1,0 +1,228 @@
+/* TIPOGRAFÍA DE LETRA - INKNUT ANTIQUA */
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&display=swap');
+
+/* FONDO DE LA PAGINA */
+body {
+    background-image: url(../RECURSOS/FONDO\ DE\ PAGINA.avif);
+    background-size: cover;
+}
+
+/* TAMAÑO Y ESTILO DE LETRA DE BOTONES DEL HEADER  */
+li {
+    list-style-type: none;
+    font-size: 18px;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+/* CONTENEDORES FLEXIBLES DE LOS BOTONES DEL HEADER  */
+.contenedorFlexibleNavegador {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedorFlexibleBotones {
+    display: flex;
+    flex-direction: row;
+}
+/* COLOR Y ESTILO BOTONES DEL HEADER  */
+.fondoRosa {
+    background-color: rgba(237, 186, 186, 0.4);}
+.letraNegra {
+    color: black;}
+.botonRectangulo {
+width: 200px;
+height: 65px;
+text-align: center;
+margin: 10px;
+border-radius: 10px;
+padding-top: 12px;
+border: solid black 2px;}
+
+/* MAIN  */
+
+/* Título */
+h1{
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 40px;
+    background-color: rgba(237, 186, 186, 0.4);
+}
+
+.ContenedorTitulo {
+    width: 900px;
+    height: 80px;
+    border-radius: 20px;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorFlexibleTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Portada */
+
+.contenedorFlexiblePortada {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.letraPortada {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 16px;
+}
+.fondoBlanco {
+background-color: white;
+margin-left: 10px;
+text-align: center;
+}
+
+/* Carteras y Accesorios */
+
+.contenedorFlexibleTituloSecundario {
+    font-family: 'Inknut Antiqua', serif;
+    background-color: rgba(237, 186, 186, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.contenedorFlexibleModelos1 {
+    display: flex;
+    justify-content: center;
+}
+
+.cuadradoEstilosCartera {
+background-color: rgb(167, 166, 166);
+margin-right: 20px;
+width: 520px;
+text-align: center;
+font-family: 'Inknut Antiqua', serif;
+font-size: 20px;
+color:brown;
+border-radius: 10px;
+}
+
+.modeloCombinado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.marginDerecho {
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.marginSuperior {
+    margin-top: 20px;
+}
+
+
+
+/* Quienes Somos y Contacto   */
+
+
+.cuadradoGrandeRosa {
+    width: 1000px;
+    height: 600px;
+    background-color: rgba(237, 186, 186, 0.4);
+    border-radius: 30px;
+}
+
+/* Contacto   */
+.contenedorInline {
+    display: flex;
+    padding-top: 30px;
+}
+
+.ubicaciónDatos { 
+    padding-left: 30px;
+}
+
+.rectanguloDatos { 
+    background: white;
+    width: 400px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.rectanguloGrande {
+    background-color: white;
+    width: 700px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+/* Quienes Somos */
+
+.contenedorFlexibleQuienesSomos {
+    display: flex;
+
+}
+
+.cuadradoBlanco{
+    margin: 50px;
+    background-color: whitesmoke;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+}
+.iconoMasGrande {
+    font-size: 65px;
+}
+
+.cuadradoBlancFotos {
+    margin-top: 50px;
+    background-color: whitesmoke;
+    width: 460px;
+    height: 490px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.contenedorFlexibleFotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.paddingVideo {
+    padding-top: 10px;
+}
+/* CONTINUAR AQUÍ CON LA EDICIÓN DEL CONTACTO Y QUIENES SOMOS */
+
+
+
+
+
+/* ICONOGRAFÍA FOOTER  */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+.iconoGrande{
+ font-size: 30px;
+ padding-left: 10px;
+}
+
+.colorRojo {
+color: rosybrown;
+}
+
+.colorVerde{
+    color: green;
+}
+
